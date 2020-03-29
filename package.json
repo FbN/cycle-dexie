@@ -1,0 +1,38 @@
+{
+    "name": "@cycle/dexie",
+    "version": "1.0.0",
+    "description": "A Cycle.js Driver for Dexie JS. A Minimalistic Wrapper for IndexedDB",
+    "main": "src/index.js",
+    "module": "src/index.js",
+    "type": "module",
+    "license": "MIT",
+    "repository": "",
+    "homepage": "",
+    "bugs": "",
+    "contributors": [
+        {
+            "name": "Fabiano Taioli",
+            "email": "ftaioli@gmail.com"
+        }
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=6"
+    },
+    "dependencies": {
+        "@cycle/run": "^5.2.0",
+        "dexie": "^2.0.4",
+        "xstream": "*"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1"
+    },
+    "scripts": {}
+}
