@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "@cycle/run": "^5.2.0",
-        "dexie": "^2.0.4",
+        "dexie": "^3.2.2",
         "xstream": "*"
     },
     "devDependencies": {
